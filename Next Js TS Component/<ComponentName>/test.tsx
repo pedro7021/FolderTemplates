@@ -4,8 +4,7 @@ import { renderTheme } from '../../styles/render-theme';
 
 describe('<<ComponentName> />', () => {
   it('should match snapshot', () => {
-    const { constainer } = renderTheme(<<ComponentName> />);
+    const { container } = renderTheme(<<ComponentName> />);
     expect(container).toMatchSnapshot();
   });
 });
-
